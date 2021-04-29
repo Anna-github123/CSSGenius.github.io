@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>CSS Genius</title>
+		<link rel="stylesheet" type="text/css" href="CSSGenius.css">
+		<link rel="shortcut icon" type="image/png" href="cssglogo.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/3531098d29.js" crossorigin="anonymous"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+
+		<header class= "header">
+				
+			<div class= "menu">
+		
+				<a href="./ContactPage.html">Contact</a>
+				<a href="./QuizPage.html">Take CSS Quiz</a>
+				<a href="./HomePage.html">Home</a>
+				
+					<a href="./HomePage.html"><img src="cssglogo.png" alt="CSSG Logo" style= "position:absolute;left:5px;top:3px;width:85px;height:80px;padding:0px;"/></a>
+		
+			</div>
+	
+		</header>
+
+		<section>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class= "page-wrapper contact-page-wrapper">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+				<h2 class= "H2" style="text-align:center;color:rgb(240, 160, 160);">Get In Touch with CSS Genius!</h2>
+					<p style="text-align: center;font-size:16px;">
+						We are always happy to hear from you, so if you have any comments, questions or need to reach out to the lecturer as regarding the module, send an email to enquiries@cssgenius.com or complete the form below and we would reach out to you as soon as we can.
+					</p>
+
+				<div class="container">
+
+					<form class="contact-form" action="http://localhost/CourseworkPart2PHPFiles/Contact.php">
+					  <label for="firstname">First Name</label>
+					  <input type="text" id="firstname" name="firstname" placeholder="Your First name..." required>
+				  
+					  <label for="lastname">Last Name</label>
+					  <input type="text" id="lastname" name="lastname" placeholder="Your Last name..." required>
+
+					  <label for="gender">Gender</label>
+					  <select id="gender" name="gender" required>
+						<option value="">None</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="prefernottospecify">Prefer not to specify</option>
+						<option value="others">Others</option>
+					  </select>
+				  
+					  <label for="countrycity">City & Country</label>
+					  <input type="text" id="countrycity" name="countrycity" placeholder="City & Country..." required>
+				  
+					  <label for="subject">Subject</label>
+					  <textarea id="subject" name="subject" placeholder="Write something... " style="height:50px" required></textarea>
+
+					  <label for="message">Your Message</label>
+					  <textarea id="message" name="message" placeholder="Write something..." style="height:200px" required></textarea>
+
+					  <label for="comments">Comments</label>
+					  <textarea id="comments" name="comments" placeholder="Write something..." style="height:100px" required></textarea>
+				  
+					  <input type="submit" value="Submit"> <input type="reset" value="Clear">
+					</form>
+
+				</div>  
+
+			</div>
+
+		</section>
+
+		<footer>
+
+			<div  class= "footer-content">
+	
+				<div class= "footer-section about">
+					<br>
+					<br>
+					<br>
+					<br>		
+					<a href="./HomePage.html"><img src="cssglogo.png" alt="CSSG Logo" style= "width:135px;height:130px;padding: 0px;float:left;"/></a>
+					<br>
+					<br>
+					<br>
+					<br>	
+					<br>
+					<br>
+					<br>
+					<br>	
+						<p>
+							<span class= "bold">CSS Genius</span>is an initiative conceived of the purpose of assisting aspiring web developers all over the world improve on the language of styling websites in Web Development.
+						</p>	
+					<br>
+					<a id="link-icon" href="https://www.google.com/gmail/about/"><i class="fas fa-envelope" aria-hidden="true" style="color:white;font-size:20px;"></i>&nbsp; enquiries@cssgenius.com</a>
+					<br>
+					<br>	
+						<ul>
+							<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" aria-hidden="true" style= "color:white;"></i></a></li>
+							<li><a href="https://ng.linkedin.com/"><i class="fab fa-linkedin-in" aria-hidden="true" style= "color:white;"></i></a></li>
+							<li><a href="https://twitter.com"><i class="fab fa-twitter" aria-hidden="true" style= "color:white;"></i></a></li>
+							<li><a href="https://www.youtube.com"><i class="fab fa-youtube" aria-hidden="true" style= "color:white;"></i></a></li>
+						</ul>
+
+					<br>
+					<button class="link-4" type="button" onclick="document.getElementById('demo').innerHTML = Date()">Display Time & Date</button>
+				
+					<p id="demo"></p>
+				</div>
+				
+				<div class= "footer-section links">
+					<br>
+					<h2 class= "h2">Quick Links</h2>
+					<br>
+						<a style="background-color:transparent;" href="./HomePage.html">Home</a>
+						<br>
+						<a style="background-color:transparent;" href="./QuizPage.html">Take CSS Quiz</a>
+						<br>
+						<a style="background-color:transparent;" href="./ContactPage.html">Contact</a>
+						<br>
+						<a style="background-color:transparent;" href="https://www.skillonpage.com/learn-css-from-scratch/">Read More On CSS</a>
+						<br>
+						<a style="background-color:transparent;" href="https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css">CSS Styles</a>
+				</div>
+
+				<div class= "footer-section contact">
+					<br>
+					<h2 class= "h2">Contact Us!</h2>
+					<br>
+						<p> If you have any issues regarding getting access to CSS Genius or taking the quiz, reach out to us by leaving us a message and we would get back to you as soon as we receive it.</p>
+					<br>
+					<form action="http://localhost/CourseworkPart2PHPFiles/CSSGenius.php">
+						<input type="email" name="email" class="text-input contact-input" placeholder="Email Address" required>
+						<textarea name="message" class="text-input contact-input" placeholder="Your message..." required></textarea>
+						<button type="submit" class="btn btn-big contact-btn">
+							<i class="fas fa-envelope" aria-hidden="true" style="color: white;font-size:20px;">&nbsp; </i>
+						 	Send
+						</button>
+					</form>
+				</div>
+
+			</div>
+	
+			<div class= "footer-bottom">
+				<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> CSS Genius | Designed by CSS Genius. All Rights Reserved.</p>
+			</div>
+	
+		</footer>
+
+	</body>
+</html>
