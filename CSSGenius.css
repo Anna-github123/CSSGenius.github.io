@@ -1,0 +1,664 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #FFFFFF;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 0px;
+	height: 100%;
+	width: auto;
+}
+
+.header {
+	border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFFFFF;
+}
+
+.btn {
+	padding: .5rem 1rem;
+	background: rgb(240, 160, 160);
+	color: white;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-big {
+	padding: .7rem 1.3rem;
+	line-height: 1.3rem;
+}
+
+.btn:hover { 
+	color: white !important;
+	background: lightpink;
+}
+
+.text-input {
+	padding: .7rem 1rem;
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+	outline: none;
+	color: #444;
+	line-height: 1.5rem;
+	font-size: 1.2em;
+}
+
+.menu {	
+	overflow: hidden;
+	background-color: white;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.menu a{
+	float: right;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	padding: 0px 30px;
+	text-align: center;
+	border-radius: 8px;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 35px;
+}
+
+.menu a:visited {
+	background-color: white;
+	color: black;
+}
+
+.menu a:hover, a:active {
+	background-color: #F2F2F2;
+	color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a {
+    float: right;
+    width: 100%;
+  }
+}
+
+* {
+	box-sizing: border-box;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background: black;
+	color: white;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+}
+
+.footer-content {
+	height: 600px;
+	display: flex;
+}
+
+.footer-content .footer-section {
+	flex: 1;
+	padding: 25px;
+}
+
+.footer-content .about span{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+}
+
+.footer-content .links a {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	transition: all .3s;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 17px;
+	text-decoration: none;
+	line-height: 2.3;
+}
+
+.footer-content .links a:hover {
+	color: rgb(240, 160, 160);
+	margin-left: 15px;
+	transition: all .3s;
+}
+
+.footer-content .contact .contact-input {
+	background:#F2F2F2;
+	color: white;
+	margin-bottom: 10px;
+	line-height: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	padding: .9rem 1.4rem;
+	border: none;
+}
+
+.footer-content .contact .contact-input:focus {
+	background: #1A1A1A;
+}
+
+.footer-content .contact .contact-btn {
+	float: right;
+}
+
+.footer-bottom {
+	background-color:black;
+	color: white;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 0px;
+}
+
+@media (max-width: 750px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+	.footer {
+	  position: absolute;
+	  right: 0;
+	  bottom: 0;
+	  height: auto;
+	}
+	.footer-content {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  height: auto;
+	}
+
+	.footer-content .contact {
+		padding-bottom: 90px;
+	}
+
+	.footer-content .contact .contact-btn {
+		width: 100%;
+	}
+}
+
+#link-icon {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: transparent;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.page-wrapper {
+	min-width: 100%;
+}
+
+.page-wrapper a:hover {
+	color: rgb(240, 160, 160);
+}
+
+.big-intro {
+	color: black;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.H1 {
+	font-size: 75px;
+	color: black;
+	line-height: 1.5;
+}
+
+.p1 {
+	font-size: 25px;
+	color: rgb(240, 160, 160);
+	line-height: normal;
+	word-wrap: break-word;
+}
+
+#link-1:link, a:visited {
+	background-color: rgb(240, 160, 160);
+	color: white;
+	padding: 16px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 15%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: 30px;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+#link-1:hover, a:active {
+	background-color: black;
+}
+
+.big-intro:link, a:visited {
+	color: white;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 20%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+}
+
+.big-intro:hover, a:active {
+	background-color: transparent;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column-1 {
+	float: left;
+	width: 50%;
+	padding: 30px;
+	height: auto;
+	color: #ffffff;
+	font-size: 16px;
+	flex: 50%;
+}
+
+.main:after {
+	content: "";
+	display: table;
+	clear: both;
+	display: flex;
+}
+
+@media screen and (max-width: 900px) {
+	.column-1 {
+	  width: 100%;
+	}
+}
+
+.main {
+	color: black;
+	text-align: left;
+	padding-left: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.H2 {
+	font-size: 80px;
+}
+
+.p2 {
+	font-size: 30px;
+	color: black;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+}
+
+.h2 {
+	color: rgb(240, 160, 160);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+h3 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.H3 {
+	font-size: 40px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul  {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+}
+
+ul {
+	display: flex;
+}
+
+ul li {
+	position: relative;
+	display: block;
+	font-size: 30px;
+	height: 60px;
+	width: 60px;
+	color:white;
+	background: black;
+	line-height: 60px;
+	border-radius: 50%;
+	margin: 0 15px;
+	cursor: pointer;
+}
+
+ul li:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	z-index: -1;
+	transform: scale(0.9);
+	transition: .5s;
+}
+
+ul li:nth-child(1):before {
+	background: #4267B2;
+}
+
+ul li:nth-child(2):before {
+	background: #2867B2;
+}
+
+ul li:nth-child(3):before {
+	background: #1DA1F2;
+}
+
+ul li:nth-child(4):before {
+	background: #FF0000;
+}
+
+ul li:hover:before {
+	filter: blur(3px);
+	transform: scale(1.2);
+	/*box-shadow: 0 0 15px #4267B2*/
+}
+
+ul li:nth-child(1):hover:before {
+	box-shadow: 0 0 15px #4267B2;
+}
+
+ul li:nth-child(2):hover:before {
+	box-shadow: 0 0 15px #2867B2;
+}
+
+ul li:nth-child(3):hover:before {
+	box-shadow: 0 0 15px #1DA1F2;
+}
+
+ul li:nth-child(4):hover:before {
+	box-shadow: 0 0 15px #FF0000;
+}
+
+ul li:nth-child(1):hover {
+	color: #456CBA;
+	box-shadow: 0 0 15px #4267B2;
+	text-shadow: 0 0 15px #4267B2;
+}
+
+ul li:nth-child(2):hover {
+	color: #2A6CBB;
+	box-shadow: 0 0 15px #2867B2;
+	text-shadow: 0 0 15px #2867B2;
+}
+
+ul li:nth-child(3):hover {
+	color: #26AFF2;
+	box-shadow: 0 0 15px #1DA1F2;
+	text-shadow: 0 0 15px #1DA1F2;
+}
+
+ul li:nth-child(4):hover {
+	color: #FF1A1A;
+	box-shadow: 0 0 15px #FF0000;
+	text-shadow: 0 0 15px #FF0000;
+}
+
+.bold {
+	color: rgb(240, 160, 160);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#link-2:link, a:visited {
+	background: rgb(240, 160, 160);
+	color: white;
+	padding: 18px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 45%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+#link-2:hover, a:active {
+	background-color: black;
+}
+
+*	{
+	box-sizing: border-box;
+}
+
+.contact-form {
+	width: 50%;
+}
+
+input[type=text], select, textarea {
+	border-radius: 10px;
+	padding: 10px;
+	border: 1.5px solid #CCC;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	display: block;
+	box-sizing: border-box;
+	border: 2px rgb(240, 160, 160) solid;
+}
+
+.contact-page-wrapper input, .contact-page-wrapper select, .contact-page-wrapper textarea {
+	min-width: 100%; 
+}
+
+input[type=submit] {
+	background-color: rgb(240, 160, 160);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-right: 6px;
+	min-width: auto;
+}
+
+input[type=submit]:hover {
+	background-color: lightpink;
+}
+
+input[type=reset] {
+	background-color: black;
+	color: rgb(240, 160, 160);
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-left: 6px;
+	min-width: auto;
+}
+
+input[type=reset]:hover {
+	background-color: #F2F2F2;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: white;
+	padding: 20px;
+	font-size: 15px;
+	width: 70%;
+}
+
+.contact-page-wrapper, .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/*The quiz CSS*/
+/*The CSS for the quiz-info puts the questions in a aligned manner*/
+
+#quiz-info {
+	width: 80%;
+	max-width: 950px;
+ 	border: 5px rgb(240, 160, 160) solid;
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*This adds an image to the header of the quiz*/
+
+#quiz-header {
+	margin-top: 0;
+	border: 2px solid;
+	padding: 5px;
+	height: 250px;
+	background: beige;
+	background-image: url("cssgtop1.jpg");
+	background-size: contain;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*This shows the block format of the label elements in the quiz*/
+
+.label {
+	display: block;
+	width: 34%;
+	border-radius: 6px;
+	background: rgb(240, 160, 160);
+	color: black;
+}
+
+/*This is the heading for each question in the quiz*/
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	padding-top: 20px;
+	color: black;
+}
+
+/*This is the link box in the feedback*/
+/*This is the box enable sumbit*/
+
+.link-4 {
+	background-color: rgb(240, 160, 160);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.link-4:hover {
+	background-color: lightpink;
+}
+
+#link-icons {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#link-icons:hover {
+	color: white;
+	background: transparent;
+}
+
+/*This is the layout for the Quiz Feedback*/
+
+.feedback-info {
+	width: 80%;
+	max-width: 950px;
+	border: 5px rgb(240, 160, 160) solid;
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.feedback-header {
+	margin-top: 0;
+	border: 2px solid;
+	padding: 5px;
+	height: 250px;
+	background: beige;
+	background-image: url("cssgtop2.webp");
+	background-size: contain;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.link-5:link, a:visited {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.link-5:hover, a:active {
+	color: rgb(240, 160, 160);
+	background: transparent;
+}
